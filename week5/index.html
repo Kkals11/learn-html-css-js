@@ -90,3 +90,63 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f4f4f4;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 80%;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 80px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/80" alt="Avatar">
+            <h3>Card 1</h3>
+            <p>Description goes here</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/80" alt="Avatar">
+            <h3>Card 2</h3>
+            <p>Description goes here</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/80" alt="Avatar">
+            <h3>Card 3</h3>
+            <p>Description goes here</p>
+        </div>
+    </div>
+</body>
+</html>
